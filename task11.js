@@ -170,6 +170,10 @@ console.log(newAlphaBeticSort.toSorted());
 
 // Array Iteration Methods - Array Iterations Method that is forEach() , map() , flatmap() , filter() , reduce() , reduceRight() , every()
 
+let data = [1, 2, 3, 4, 51];
+
+console.log(data);
+
 // Map Funtion - Map functions are the function that is used to iterate over each element of the array
 
 let hello1 = [1, 2, 3, 4, 5, 6];
@@ -180,5 +184,28 @@ const hello2 = hello1.map((data) => {
   return data * data;
 });
 
-console.log(hello2); // that is used to square roots of the element 
+console.log(hello2); // that is used to square roots of the element
+
+// split and join  - they are used to split and join the words in the string to array
+
+let message = "Aman , Garv , Naman";
+
+let dataArr = message.split(" , ");
+
+console.log(dataArr);
+
+
+// Object iterations method - we use the object.keys , object.values , object.entries 
+
+let userDataWithObject = {
+  name : "Garv Thakral!",
+  age : 21,
+}
+
+// object.keys 
+console.log(Object.keys(userDataWithObject)); // it returns the array with the keys of the object
+
+console.log(Object.values(userDataWithObject)); // it returns the array with the values in the object 
+
+console.log(Object.entries(userDataWithObject)); // it returns the two array with the key and the Values
 
