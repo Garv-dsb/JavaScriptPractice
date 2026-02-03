@@ -97,3 +97,4 @@ console.log(newArr);
 // slice method - slice method is used to slice a part from the given array 
 
 console.log(ele.slice(2)); // slice two elements from the array 
+
